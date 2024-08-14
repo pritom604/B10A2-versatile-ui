@@ -1,0 +1,60 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1440px;
+    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119 ) 100%);
+   
+
+}
+/* nav css started */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.nav-left{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-right{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
+}
+.nav-menu-btn{
+    margin-left: 15px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    border: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255); 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.nav-home{
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 2px;
+    
+}
+
+/* nav css ends */
+
