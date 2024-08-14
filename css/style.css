@@ -7,9 +7,14 @@
 
 header{
     max-width: 1440px;
-    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119 ) 100%);
    
 
+   
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.925);
+    font-family: Inter;
 }
 /* nav css started */
 .nav-main{
@@ -18,11 +23,11 @@ header{
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 50px;
     
 }
 .nav-left{
     color: rgb(230, 83, 60);
-    font-family: Inter;
     font-size: 36px;
     font-weight: 800;
 }
@@ -49,7 +54,6 @@ header{
     border-radius: 46px;
     border: none;
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 600;
     margin-left: 2px;
@@ -57,4 +61,117 @@ header{
 }
 
 /* nav css ends */
+
+/* hero css starts */
+.hero-container-main{
+    background-image: linear-gradient(180.00deg,  rgb(19, 18, 18),rgb(49, 49, 49) 100%);
+}
+.hero-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.hero-text-content{
+    width: 50%;
+   
+    padding: 20px;
+  
+}
+.hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+}
+.hero-para{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+.hero-img{
+    width: 30%;
+    position: relative;
+   
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-btn{
+    margin-top: 20px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+   
+   
+}
+.hero-btn1{
+    background-color: rgb(230, 83, 60);
+    border: none;
+    margin-right: 10px;
+}
+.videos{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.first-card{
+    position: absolute;
+    bottom: 190px;
+    right: 220px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.first-card h2{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+.first-card p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+}
+.circle { 
+    height: 40px;  
+    width: 40px; 
+    border: solid 1px;  
+    border-radius: 50%; 
+    background-color: rgb(230, 83, 60);; 
+    display: inline-block;
+}
+
+.second-card{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-card h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+.second-card p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
 
