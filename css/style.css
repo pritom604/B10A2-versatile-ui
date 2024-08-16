@@ -22,7 +22,18 @@ body{
         color: rgba(239, 237, 232, 0.65);
         font-size: 16px;
         font-weight: 400;
+        margin-top: 10px;
     
+}
+.primary-headings{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondary-headings{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
 }
 /* nav css started */
 .nav-main{
@@ -143,11 +154,7 @@ text-align: justify;
    align-items: center;
    gap: 10px;
 }
-.first-card h2{
-    color: rgb(250, 250, 249);
-    font-size: 24px;
-    font-weight: 900;
-}
+
 
 .circle { 
     height: 40px;  
@@ -168,11 +175,6 @@ text-align: justify;
     gap: 10px;
 }
 
-.second-card h1{
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 900;
-}
 .second-card p{
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
@@ -231,5 +233,266 @@ text-align: justify;
     border: 1px solid white;
     margin-bottom: 15px;
 }
+/* havit css ends */
+
+/* Extra Mile css started */
+.Extra-mile-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 62px auto;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);;
+}
+.Extra-mile-text{
+    width: 40%;
+
+}
+.Extra-mile-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.Extra-mile-img{
+    width: 40%;
+}
+.Extra-mile-img img{
+    width: 100%;
+    border-radius: 18px;;
+}
+
+/* extra mile css section ends */
+
+/* trainings and exercise css starts */
+.training-main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.training-text{
+    width: 60%;
+}
+
+.training-img{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    height: 500px;
+    margin-top: 30px
+}
+.image-1{
+    background-image:
+    linear-gradient( rgba(6, 255, 210, 0.5), rgba(0, 0, 0, 0)),
+    url('../resource/exercise1.jpg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/span 3 ;
+    grid-row: 1/span 4;
+}
+
+
+
+.image-2{
+    background-image:
+    linear-gradient( rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('../resource/exercise2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+grid-column: 4/span 6;
+grid-row: 1/span 4;
+
+}
+.image-3{
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('../resource/exercise3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+grid-column: 10/span 3;
+grid-row: 1/span 4;
+
+}
+.image-4{
+    background-image:
+    linear-gradient(  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('../resource/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+grid-column: 1/span 6;
+grid-row: 5/span 4;
+
+
+
+
+}
+.image-5{
+    background-image:
+    linear-gradient( rgba(66, 255, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('../resource/exercise5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+grid-column: 7/span 3;
+grid-row: 5/span 4;
+
+
+}
+.image-6{
+    background-image:
+    linear-gradient( rgba(0, 71, 255, 0.3), rgba(0, 0, 0, 0)),
+    url('../resource/exercise6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+grid-column: 10/span 3;
+grid-row: 5/span 4;
+
+
+}
+
+/* trainings and exercise css ends */
+
+/* BMI CSS starts here */
+.bmi-main{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+}
+.bmi-text{
+    width: 60%;
+    margin-left: 200px;
+}
+
+/* BMI css ends here */
+
+/* Bmi calculator css starts here */
+.bmi-calculator-main{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    padding: 50px;
+}
+.bmi-calculator-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+    
+}
+.calc-chart{
+    width: 40%;
+    margin-top: 55px;
+}
+.calc-chart h2{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.calc-table {
+    border-collapse: collapse;
+   border: 1px solid rgba(239, 237, 232, 0.65) ;
+   border-spacing: 0;
+   width: 80%;
+  
+}
+.calc-table td{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    border-collapse: collapse;
+    border: 1px solid rgba(239, 237, 232, 0.65) ;
+   
+   
+    
+}
+.calc-table th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+    border-collapse: collapse;
+    border: 1px solid rgba(239, 237, 232, 0.65) ;
+    
+}
+.bmi-form{
+    width: 50%;
+    margin-top: 50px;
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-field{
+    width: 48%;
+    margin-top: 30px;
+}
+.form-field-text-area{
+    width: 100%;
+    margin-top: 30px;
+}
+.form-container input, textarea, select{
+width: 100%;
+height: 50px;
+border-radius: 8px;
+/* margin-left: 10px; */
+} 
+
+
+/* Bmi calculator css ends here */
+
+/* gym membership css starts */
+.gym-membership-main{
+width: 100%;
+background-color: rgb(1, 1, 22);
+display: flex;
+}
+.gym-membership-container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.membership-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 60%;
+}
+.membership-text p{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.tik{
+    color: yellow;
+   
+}
+.membership-img{
+ width: 100%;   
+}
+.membership-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+/* gym membership css ends */
+
+meet css starts 
 
 
