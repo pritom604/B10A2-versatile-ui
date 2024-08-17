@@ -193,7 +193,7 @@ text-align: justify;
 .habit-container{
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
    
 }
 .habit-img-section{
@@ -206,6 +206,7 @@ text-align: justify;
     text-align: center;
     width: 60%;
    margin: 0 auto;
+   padding: 50px;
 }
 .havit-title h2{
     color: rgb(255, 255, 255);
