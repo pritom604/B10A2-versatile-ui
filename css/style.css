@@ -38,6 +38,11 @@ main{
     font-size: 28px;
     font-weight: 900;
 }
+.img-cap{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
 /* nav css started */
 .nav-main{
     display: flex;
@@ -515,23 +520,74 @@ margin-top: 50px;
 
 .meet-img-container{
     background-color: rgb(34, 34, 34);
-    border: 2px solid red;
     padding: 20px;
     border-radius: 18px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     margin-top: 30px;
+  
 }
 .img-measure{
-    
+    position: relative;
     
 }
 .meet-img-container img{
     width: 100%;
     height: 272px;
     border-radius: 18px;
+    filter: brightness(70%);
+  
+}
+.trainer-name{
+    position: absolute;
+    top: 210px;
+    left: 20px;
 }
 /* meet css ends here */
+
+/* about css starts here */
+.about-main-container{
+    background-color: rgb(34, 34, 34);
+    margin-top: 80px;
+}
+.about-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    /* margin-bottom: 50px; */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.about-left{
+width: 50%;
+}
+.about-middle{
+width: 20%;
+}
+.about-right{
+width: 20%;
+}
+.about-left h1{
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+    font-weight: 800;
+}
+/* about css starts here */
+
+/* footer css starts here */
+.footer-main{
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+/* footer css ends here */
 
 
