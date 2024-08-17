@@ -1,0 +1,212 @@
+.nav-main{
+    margin: 0px;
+    max-width: 100vw;
+       
+        
+    }
+    .nav-menu-btn{
+        display: none;
+       
+    }
+    .handburger-btn{
+        display: block;
+        color: wheat;
+    }
+    .hero-container{
+        width: 100%;
+        flex-direction: column;
+        
+       
+    }
+    .btn-container-desk{
+        display: none;
+    }
+    
+       
+      
+    
+    .hero-text-content{
+        width: 100%;
+       
+       
+      
+    }
+    .hero-title{
+        color: rgb(255, 255, 255);
+       font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .hero-para{
+        color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    }
+    .hero-img{
+        width: 100%;
+        position: relative;
+       
+    }
+    .hero-img img{
+        width: 100%;
+    }
+    .btn-container{
+        display: flex;
+    }
+    .hero-btn{
+        margin-top: 20px;
+        padding: 8px 10px 8px 10px;
+        margin-bottom: 20px;
+    }
+    .videos{
+        width: 145px;
+        height: 72.58px;
+    }
+    .first-card{
+        position: absolute;
+        top: 240px;
+        left: 20px;
+       
+    }
+    .second-card{
+        position: absolute;
+        top: 90px;
+        left: 170px;
+        
+    }
+    .habit-container{
+       width: 100%;
+       }
+
+       .havit-title{
+        text-align: center;
+        width: 100%;
+       
+      
+    }
+       .havit-title h2{
+        font-size: 32px;
+       
+      
+    }
+    .habit-img-section{
+        flex-direction: column;
+        }
+
+        .Extra-mile-main{
+          flex-direction: column;
+          width: 100%;
+        }
+        .Extra-mile-text{
+            width: 100%;
+        
+        }
+        .Extra-mile-text h1{
+           font-size: 32px;
+        }
+        .extra-mile-btn{
+            width: 100%;
+        }
+        .Extra-mile-img{
+            width: 100%;
+        }
+        .Extra-mile-img img{
+            width: 100%;
+            border-radius: 18px;;
+        }
+        .training-main{
+            display: none;
+        }
+        .bmi-main{
+            width: 100%;
+        }
+        .bmi-text{
+            width: 100%;
+            margin-left: 20px;
+            font-size: 32px;
+        }
+        #bmi-headings{
+            font-size: 32px;
+        }
+        .bmi-calculator-main{
+            width: 100%;
+            padding: 10px;
+        }
+        .bmi-calculator-container{
+            width: 100%;
+           
+           flex-direction: column;
+           }
+           .calc-chart{
+            width: 100%;
+            margin-top: 55px;
+            margin-left: 30px;
+        }
+        .calc-table {
+            
+           width: 80%;
+          
+        }
+        .bmi-form{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .input-btn{
+            width: 224px;
+            height: 54px;
+            padding: 16px 40px 16px 40px;
+        }
+        .gym-membership-main{
+           flex-direction: column;
+            }
+            .gym-membership-container{
+               
+                width: 100%;
+               flex-direction: column;
+               
+            
+            }
+            .membership-text{
+                justify-content: flex-start;
+                 align-items:center;
+                width: 100%;
+            }
+            .gym-title{
+                font-size: 32px;
+               text-align: center;
+            }
+            .meet-main{
+                width: 100%
+            }
+            #meet-title{
+                font-size: 32px;
+                text-align: center;
+            }
+            .meet-img-container{
+                grid-template-columns: repeat(1,1fr);
+               
+              
+            }
+            .about-main{
+                width: 100%;
+              flex-direction: column;
+              
+            }
+            .about-left{
+                width: 100%;
+                margin-bottom: 20px;
+                }
+                .about-middle{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    }
+                    .about-right{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    }
+                    .footer-main{
+                        padding: 30px;
+                        background-color: rgb(34, 34, 34);
+                    }

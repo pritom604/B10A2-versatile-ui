@@ -6,8 +6,12 @@
     <title>Fitness Website</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+   
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
+
 <body>
     <header>
         <section class="nav-container">
@@ -21,6 +25,9 @@
                     <button class="nav-menu-btn">Contact</button>
                     <button class="nav-menu-btn">About</button>
                 </div>
+                <div class="handburger-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </section>
 
@@ -28,15 +35,21 @@
             <section class="hero-container">
                 <div class="hero-text-content" >
                     <h1 class="hero-title">Get body in <br>
-                        shape & stay <br>
+                        <span ><i>shape</i></span> & stay <br>
                         healthy
                     </h1>
                     <p class="hero-para">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                    <button class="hero-btn hero-btn1">Join Club Now!</button>
+                    <div class="btn-container-desk">
+                        <button class="hero-btn hero-btn1">Join Club Now!</button>
                     <button class="hero-btn">Download App</button>
+                    </div>
                 </div>
                 <div class="hero-img">
                     <img src="resource/Images 2.png" alt="">
+                    <div class="btn-container">
+                        <button class="hero-btn hero-btn1">Join Club Now!</button>
+                    <button class="hero-btn">Download App</button>
+                    </div>
                     <div class="first-card videos">
                         <div class="circle"></div>
                         <div>
@@ -89,11 +102,13 @@
             <div class="Extra-mile-text">
                <h1> Run an Extra <br> Mile Easily</h1>
                <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-               <button class="hero-btn hero-btn1">Join Now</button>
+               <button class="hero-btn hero-btn1 extra-mile-btn">Join Now</button>
             </div>
+            
             <div class="Extra-mile-img"> <img src="resource/run.jpg" alt=""></div>
 
         </section>
+        
         <section class="training-main">
             <div class="training-text">
                 <h1 class="primary-headings">Trainings and Exercises</h1>
@@ -110,7 +125,7 @@
         </section>
         <section class="bmi-main">
             <div class="bmi-text">
-                <h1 class="primary-headings">BMI Calculator</h1>
+                <h1 class="primary-headings" id="bmi-headings">BMI Calculator</h1>
                 <p class="paragraph"> We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
         </section>
@@ -167,14 +182,14 @@
                         
                         <textarea class="input-padding" placeholder="Select an activity factor" name="" id=""></textarea>
                     </div>
-                    <button class="hero-btn hero-btn1">Calculate</button>
+                    <button class="hero-btn hero-btn1" id="input-btn">Calculate</button>
             </div>
            </div>
         </section>
         <section class="gym-membership-main">
             <div class="gym-membership-container">
-                <div>
-                    <h1 class="primary-headings">Best Gym Membership</h1>
+                
+                    <h1 class="primary-headings gym-title">Best Gym Membership</h1>
                 <div class="membership-text">
                     
                     <span class="tik"><i class="fa-solid fa-check"></i></span>
@@ -202,7 +217,7 @@
 
         <section class="meet-main">
             <div class="meet-text">
-                <h1 class="primary-headings">Meet Our Team</h1>
+                <h1 class="primary-headings" id="meet-title">Meet Our Team</h1>
                 <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
             <div class="meet-img-container">

@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 header{
     max-width: 100%;
@@ -14,8 +15,10 @@ header{
 }
 body{
     background-color: rgba(0, 0, 0, 0.925);
-    font-family: Inter;
-    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 main{
     background-color: rgba(0, 0, 0, 0.925);
@@ -30,12 +33,12 @@ main{
 }
 .primary-headings{
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
 }
 .secondary-headings{
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 900;
 }
 .img-cap{
@@ -75,6 +78,9 @@ main{
     font-weight: 400;
    
 }
+.handburger-btn{
+    display: none;
+}
 .nav-home{
     padding: 8px 20px 8px 20px;
     background-color: rgb(230, 83, 60);
@@ -108,9 +114,10 @@ main{
     padding: 20px;
   
 }
+
 .hero-title{
     color: rgb(255, 255, 255);
-    font-size: 78px;
+    font-size: 60px;
     font-weight: 900;
 }
 .hero-para{
@@ -145,6 +152,9 @@ text-align: justify;
     border: none;
     margin-right: 10px;
 }
+.btn-container{
+    display: none;
+}
 .videos{
     width: 206px;
     height: 96px;
@@ -167,7 +177,7 @@ text-align: justify;
 .circle { 
     height: 40px;  
     width: 40px; 
-    border: solid 1px;  
+    border: solid 1px;              
     border-radius: 50%; 
     background-color: rgb(230, 83, 60);; 
     display: inline-block;
@@ -180,7 +190,7 @@ text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 10px; 
 }
 
 .second-card p{
@@ -204,7 +214,7 @@ text-align: justify;
 }
 .havit-title{
     text-align: center;
-    width: 60%;
+    width: 70%;
    margin: 0 auto;
    padding: 50px;
 }
@@ -253,7 +263,7 @@ text-align: justify;
     margin: 62px auto;
     padding: 20px;
     border-radius: 18px;
-    background-color: rgb(34, 34, 34);;
+    background-color: rgb(34, 34, 34);
 }
 .Extra-mile-text{
     width: 40%;
@@ -478,9 +488,7 @@ display: flex;
     width: 1000px;
     margin: 0 auto;
     padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
    
 
 }
@@ -490,6 +498,7 @@ display: flex;
     justify-content: space-between;
     align-items:center;
     width: 60%;
+    padding: 10px;
 }
 .membership-text p{
     margin-left: 10px;
@@ -501,10 +510,11 @@ display: flex;
    
 }
 .membership-img{
- width: 100%;   
+ width: 30%;   
+ padding: 20px;
 }
 .membership-img img{
-    width: 100%;
+    width: 80%;
     border-radius: 18px;
 }
 /* gym membership css ends */
